@@ -486,6 +486,5 @@ print('|'.join(stuff))
 print(' | '.join(stuff[3:5]))
 '''
 
-# Dictionaries, oh my dictionaries
 
-# Create a mapping of states to abbrevation
+
