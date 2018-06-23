@@ -1,5 +1,5 @@
 
-'''
+
 #more variables and printing
 name = 'Parth Sharma'
 age = 35
@@ -17,9 +17,9 @@ print('he\'s got %s hair but dosent suit him' %teeth)
 
 #A lil tricky line
 print('if i add %d, %d and %d i get %d' %(age,height,weight,age+height+weight))
-'''
 
-'''
+
+
 #Python string formatters
 x = 'There are %d types of people' %10
 binary = 'binary'
@@ -39,32 +39,32 @@ print(joke_evaluation % hilarious)
 w = 'This is the left side of...'
 e = 'a string with a right side'
 print(w+e)
-'''
 
-'''
+
+
 # More Printing
 print('\n' * 5)
 print('Mary had a little lamb.')
 print('it\'s fleece was as white as %s' %'snow')
 print('And everywhere the mary went')
 print('.' * 10)
-'''
 
-'''
+
+
 # Printing Printing
 formatter = "%r %r %r %r"
 print(formatter%(1,2,3,4))
 print(formatter %(True,False,True,True))
 print(formatter % ('I had this thing','But wait!', 'do u like python', 'coz i love it'))
-'''
-'''
+
+
 #Printing pRINTING Printing
 days = 'mon, tue, wed, thu, fri, sat'
 months = 'jan\nfeb\nmarch\napril\nmay\njune\njuly\naugust\nseptember\noctober'
 print(months)
-'''
 
-'''
+
+
 tabby_cat = "\t I\'m tabbed in"
 persian_cat = 'Im split\n on a line'
 backlash_cat = "i'M \\ a \\ cat."
@@ -78,18 +78,18 @@ print(tabby_cat)
 print(persian_cat)
 print(fat_cat)
 print(backlash_cat)
-'''
-'''
+
+
 a = ('\t' * 3)
 print(a +'hey ')
-'''
 
-'''
+
+
 while True:
     for i in ["/","_","|","\\","|"]:
         print('%s\r' %i)
-'''
-'''
+
+
 #Python animation for loading
 import itertools
 import threading
@@ -109,9 +109,9 @@ def animate():
 
 t = threading.Thread(target=animate)
 t.start()
-'''
 
-'''
+
+
 #Asking Questions
 print('How old are you?\n')
 age = input()
@@ -120,8 +120,8 @@ height = input()
 print('How much do u weigh?\n')
 weight = input()
 print('so you are %r year old and %r year old and weigh %r kg' %(age,height,weight))
-'''
-'''
+
+
 #Prompting People
 formatter = ('%r %r %r %r')
 a = input('what is your name ')
@@ -130,15 +130,15 @@ c = input('what is your idiot')
 v = input('what the hell is your email?')
 #print(formatter%(a,b,c,v))
 print('so you are %r and %r and %r and %r' %(a,b,c,v))
-'''
-'''
+
+
 #Chracter Input
 name = input('What is your name :' )
 age = int(input('How old are you :'))
 year = str((2017-age)+100)
 print(name+'will be 100 year old in'+year)
-'''
-'''
+
+
  #Names, Variables , Code, Functions
 def print_two(*args):
      arg1,arg2 = args
@@ -157,8 +157,9 @@ print_two('parth','pooja')
 print_two_again('parth', 'pooja')
 print_one('parth')
 print_none()
-'''
-'''
+
+
+
 #Functions and variables
 def cheese_and_crackers(cheese_count, cracker_count):
     print('you have %r slices of cheese' %cheese_count)
@@ -178,9 +179,8 @@ cheese_and_crackers(10+10, 50+60)
 
 print('we can also combine variable and math')
 cheese_and_crackers(cheese_slices_count+10, crackers_box_count+80)
-'''
 
-'''
+
 #Functions can return something
 
 def add(a,b):
@@ -213,14 +213,13 @@ print('age : %d height:%d weight:%d and der:%d' %(age,height,weight,der))
 print('Puzzle time!')
 what = add(age, sub(height,multiply(weight,divide(der,3))))
 print('here is ',what, 'can you do it?')
-'''
-'''
+
+
 #More practise
 print('lETS RECAP EVERYTHING! SHALL WE?')
 print('You\'d need yo know \'bout escapes with\\ that do\n newlines and \t tabs')
-'''
 
-'''
+
 #poem = 
 
 \t*the lovely world
@@ -230,8 +229,8 @@ nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
 
-'''
-'''
+
+
 print('=='*20)
 print(poem)
 print('++'*20)
@@ -255,9 +254,8 @@ start_point = start_point/10
 
 print('we can also do it this way')
 print('we\'d have %d beans, %d jars and %d crates'%secret_formula(start_point))
-'''
 
-'''
+
 #What if
 people = 20
 cats = 30
@@ -280,8 +278,7 @@ if people <= dogs:
 if people == dogs:
     print('holy cow, people are dogs')
 
-'''
-'''
+
 people = input('enter the number of people\t*')
 cars = input('enter the number of cars\t*')
 buses =input('enter the number of buses\t*')
@@ -300,8 +297,7 @@ elif cars < buses:
 else:
     print('still can\'t decide')
 
-'''
-'''
+
 #Making Decisions
 v=('=='*2)
 print(v+'You enter a dark room with two doors. Do you go through door #1 or 2?'+v)
@@ -333,9 +329,7 @@ elif door =="2":
 else:
     print('you stumbled around and fall on a knife and die!')
 
-'''
 
-'''
 #Loops and lists
 the_count = [1,2,3,4,5]
 fruits = ['apples','oranges', 'pears','apricots']
@@ -363,8 +357,8 @@ for i in range(0,6):
 
 for i in elements:
     print('elements was : %d'%i)
-'''
-'''
+
+    
 #While loops
 i = 0
 numbers = []
@@ -381,15 +375,15 @@ print('The numbers')
 
 for num in numbers:
     print(num)
-'''
 
-'''
+
+
 #acessing elements of list
 animal = ['tiger','bear']
 ani = animal[1]
 print(ani)
-'''
-'''
+
+
 #Branches and functions
 from sys import exit
 
@@ -461,8 +455,8 @@ def dead(why):
     exit(0)
 
 start()
-'''
-'''
+
+
 #Doing things to lists
 ten_things = 'Apples Oranges Crows Telephone Light Sugar'
 print('wait! there isn\'t ten things in the list')
@@ -484,7 +478,7 @@ print(stuff[-1])
 print(stuff.pop())
 print('|'.join(stuff))
 print(' | '.join(stuff[3:5]))
-'''
+
 
 
 
