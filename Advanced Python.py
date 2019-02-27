@@ -51,6 +51,7 @@
 #     }
 #     str3 = templ.substitute(data)
 #     print(str3)
+#      print('it is {}'.format(str3)
 #
 # if __name__ == '__main__':
 #     main()
